@@ -1,0 +1,38 @@
+.burger {
+    display: none;
+    flex-direction: column;
+    background: none;
+    border: none;
+}
+
+.burger span {
+    width: 25px;
+    height: 3px;
+    background: var(--primary);
+    margin: 4px;
+}
+
+@media (max-width: 768px) {
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .skills-list {
+        flex-direction: column;
+    }
+}

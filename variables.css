@@ -1,0 +1,6 @@
+:root {
+    --primary: #7a4a00;
+    --bg-gradient: linear-gradient(90deg, #fff2e0, #ffd8a8);
+    --text-dark: #333;
+    --font-main: 'Poppins', sans-serif;
+}
